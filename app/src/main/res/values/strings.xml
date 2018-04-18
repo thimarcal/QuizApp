@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Dive Quiz</string>
+
+    <string name="question_1_label">Question 1</string>
+    <string name="question_2_label">Question 2</string>
+    <string name="question_3_label">Question 3</string>
+    <string name="question_4_label">Question 4</string>
+
+    <string name="question_1">What\'s the max depth for recreational diver?</string>
+    <string name="answer_1_a">12 m</string>
+    <string name="answer_1_b">18 m</string>
+    <string name="answer_1_c">24 m</string>
+    <string name="answer_1_d">36 m</string>
+
+    <string name="question_2">Select 2 dive specialties</string>
+    <string name="answer_2_a">Deep Dive</string>
+    <string name="answer_2_b">Dry Dive</string>
+    <string name="answer_2_c">Night Dive</string>
+    <string name="answer_2_d">Fly dive</string>
+
+    <string name="question_3">I can dive using cylinder without certification.</string>
+    <string name="answer_3_true">True</string>
+    <string name="answer_3_false">False</string>
+
+    <string name="question_4">Write the name of a Dive Certification Authority</string>
+    <string-array name="answers_4">
+        <item>PADI</item>
+        <item>SSI</item>
+        <item>CMAS</item>
+    </string-array>
+
+    <string name="submit">Submit</string>
+
+</resources>
