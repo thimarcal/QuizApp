@@ -63,19 +63,18 @@ public class MainActivity extends AppCompatActivity {
             rightAnswerCount ++;
         }
 
-        String[] answers4 = getResources().getStringArray(R.array.answers_4);
-
         if (null != question4ET.getText()) {
             String answer4 = question4ET.getText().toString().toUpperCase();
-            for (String ans:answers4) {
-                if (ans.toUpperCase().equals(answer4)) {
+            if (answer4.equals(getString(R.string.answers4).toUpperCase())) {
                     rightAnswerCount ++;
-                    break;
-                }
             }
         }
 
 
-        Toast.makeText(this, "You Scored: "+rightAnswerCount, Toast.LENGTH_LONG).show();
+        if (rightAnswerCount == 4) {
+            Toast.makeText(this, "You Rock!", Toast.LENGTH_LONG).show();
+        } else {
+            Toast.makeText(this, "You Scored: " + rightAnswerCount+ ". Try Again", Toast.LENGTH_LONG).show();
+        }
     }
 }

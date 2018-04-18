@@ -23,11 +23,7 @@
     <string name="answer_3_false">False</string>
 
     <string name="question_4">Write the name of a Dive Certification Authority</string>
-    <string-array name="answers_4">
-        <item>PADI</item>
-        <item>SSI</item>
-        <item>CMAS</item>
-    </string-array>
+    <string name="answers4">PADI</string>
 
     <string name="submit">Submit</string>
 
